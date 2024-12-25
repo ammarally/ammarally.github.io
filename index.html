@@ -1,0 +1,414 @@
+<!DOCTYPE html> 
+
+<html>
+	<head>
+		<title>Ali Ammar</title>
+		<link href="css/tara.css" rel="stylesheet" type ="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Rajdhani|Amatic+SC|Cormorant|Open+Sans+Condensed:300|Playfair+Display|Alegreya+Sans+SC:100i|Amiri|Alegreya+Sans:100" rel="stylesheet">
+		<link rel="shortcut icon" href="img/favicon.png">
+
+		<script src="js/jquery-3.3.1.min.js"></script>
+    	<script src="js/main.js"></script>
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+	<body>
+	
+		<div class="parallax">
+
+
+			
+			<div class = "container" id = "aCon">
+				<div class="row">
+					<div class="left">
+						<div class ="topchunk">
+							<div class = "header" id = "top"></div> <!--header-->
+							<div class = "title" id="About">
+								<p>Ali Ammar</p>
+							</div>
+							<div class = "header" id = "bottom"></div> <!--header-->
+						</div>
+						<div class = "division" >
+							<p >I hold an MS in Data Science (2024) from the University of Birmingham and passionate about leveraging <span style="font-weight: bold;">artificial intelligence, machine learning, and data science to address challenges in healthcare and medical imaging</span>. My research interests include developing innovative frameworks for predictive analysis and enhancing diagnostic accuracy through AI-driven solutions in biomedical applications.
+
+							</br> </br> I graduated with honors from the Lahore School of Economics with a degree in Economics and Marketing (2022).</p>
+						</div>
+					</div>
+					<div class = "right"></div>
+				</div>
+			</div> <!-- end container -->
+
+		<!-- Navigation Bar -->
+			<div class = "navbar" id = "nav">
+				<ul>
+					<!-- <li><a href = "#top">About</a></li> -->
+					<li><button onclick = "window.location='#About'" id = "firstbutton">About</button></li>
+					<li><button onclick = "window.location='#ed'">Education</button></li>
+					<li><button onclick = "window.location='#pubs'">Projects</button></li>
+					<li><button onclick = "window.location='#projects'">Posters</button></li>
+					<li><button onclick = "window.location='#experience'">Experience</button></li>
+					<li><button onclick = "window.location='#teachEx'">Teaching</button></li>
+					<li><button onclick = "window.location='#CV'">CV</button></li>
+				</ul>
+			</div>
+
+			
+
+        <!-- Experience Slideshow -->
+       	<div class = "container" id = "eCon">
+	       <div class = "sectionHeader" id = "ed" > 
+	            <h1> Education </h1>
+	       </div>
+
+	       <div class = "SlideContainer" id = "slider">
+
+	            <div class = "slide2" id="education">
+	                <div class = "subSectionHeader">
+	                    <h2> University of Birmingham, Department of Computer Science | September 2023-November 2024 </h2>
+	                </div> 
+
+	                <p>MS in Data Science</br></br></p>
+
+	                
+
+	                <div class = "subSectionHeader">
+	                    <h2> Lahore School of Economics, LSE | August 2018-May 2022 </h2>
+	                </div> 
+
+	                <p>BSc. in Economics and Marketing</br></br></p>
+					<div class="box" align="left">
+                    <img src="img/grad2.jpg" alt="First Image" width="500" height="350">
+                    </div>
+
+	            </div> <!-- end of slide-->
+	        </div><!-- end of slide show container-->
+	    </div> <!-- end container --> 
+
+	            <!-- Experience Slideshow -->
+       	<div class = "container" id = "pCon">
+	       <div class = "sectionHeader" id = "pubs" > 
+	            <h1> Selected Projects </h1>
+	       </div>
+
+	       <div class = "SlideContainer" id = "slider">
+	       		</br>
+	            <div class = "slide" id="publications">
+	                <div class = "subSectionHeader">
+
+	                	<div style="clear: both">
+						    <h3 style="display: inline; font-style: italic;font-weight: 900;"> Ammar Ali, </h3>
+						    <h3 style="display: inline">Deep learning-based <span style="font-weight: bold;">denoising techniques for medical imaging</span>, leveraging frameworks like <span style="font-weight: bold;">UNAD, CAPAD, and U-NET</span> to enhance diagnostic accuracy and patient safety across <span style="font-weight: bold;">ultrasound, PET, and CT modalities</span>. March 22, 2024. </h3>
+						    <a href="Deep Learning-Based Denoising Techniques in Medical Imaging.pdf" target="_blank" style="text-decoration: none; color: blue; font-weight: bold;">Slides</a>
+						</div>
+	                </div> 
+
+	            </br>
+
+	                <div class = "subSectionHeader">
+	                	<div style="clear: both">
+						    <h3 style="display: inline; font-style: italic;font-weight: 900;"> Ammar Ali, </h3>
+						    <h3 style="display: inline">Built a <span style="font-weight: bold;">Conversational AI</span> chatbot with Rasa, integrating <span style="font-weight: bold;">GPT-4 and RAG</span> for complex queries, using <span style="font-weight: bold;">DIETClassifier and CRFs</span> for intent recognition and entity extraction, enabling accurate and scalable real-time ticket aggregation. September, 2024. </h3>
+						    <a href="Ammar-2690201.pdf" target="_blank" style="text-decoration: none; color: blue; font-weight: bold;">View PDF</a>
+						</div>
+	                </div> 
+
+	            </br>
+
+	                <div class = "subSectionHeader">
+	                	<div style="clear: both">
+						    <h3 style="display: inline; font-style: italic; font-weight: 900;"> Ammar Ali, </h3>
+						    <h3 style="display: inline"> Developed a <span style="font-weight: bold;">potato disease classification</span> system using FastAPI and ReactJS with a <span style="font-weight: bold;">deep learning model</span> built in <span style="font-weight: bold;">TensorFlow</span>, achieving 96% model accuracy and <span style="font-weight: bold;">99% image classification</span> accuracy. August 2024. </h3>
+						    <a href="https://github.com/your-repo-link" target="_blank" style="text-decoration: none; color: blue; font-weight: bold; margin-left: 10px;">GitHub Repository</a>
+						</div>
+	        
+	                </div> 
+
+	            </div> <!-- end of slide-->
+	        </div><!-- end of slide show container-->
+	    </div> <!-- end container --> 
+
+		<!-- Projects Slideshow-->
+		<div class = "container" id = "pCon">
+			<div class = "SlideContainer" >
+
+				<div class = "sectionHeader" id = "projects">
+					<h1>Project Presentations and Posters</h1>
+				</div>
+				<div class = "slide" id = "posters"> 
+		            <div class = "subSectionHeader">
+		            	</br>
+	                	<div style="clear: both">
+						    <h3 style="display: inline; font-style: italic; font-weight: 900;"> Ammar A, </h3>
+						    <h3 style="display: inline"> Venkatachalam A, Borase S, Sathyanarayanan S, Kekepuram M: Analyzed the <span style="font-weight: bold;">impact of turnovers, personal fouls, and player positions on minutes played</span> in NBA games using machine learning models, achieving up to <span style="font-weight: bold;">80% predictive accuracy</span>. The project utilized <span style="font-weight: bold;">XGBoost, Random Forest, and Support Vector Regressors</span>, offering actionable insights for player utilization and game strategy in modern basketball. April 2024.[</h3>
+						    <h3 style="display: inline; font-style: italic;"> Finalist for Best Poster</h3>
+							<h3 style="display: inline">]</h3>
+							<a href="link-to-code" target="_blank" style="text-decoration: none; color: blue; font-weight: bold;">Code</a> |
+                            <a href="Final Group Report.pdf" target="_blank" style="text-decoration: none; color: blue; font-weight: bold;">Report</a> |
+                            <a href="link-to-slides" target="_blank" style="text-decoration: none; color: blue; font-weight: bold;">Slides</a> |
+                            <a href="PosterPresentations.pdf" target="_blank" style="text-decoration: none; color: blue; font-weight: bold;">Poster</a>
+						</div>
+	                </div> 
+	                </br>
+	                <div class = "subSectionHeader">
+	                	<div style="clear: both">
+						    <h3 style="display: inline; font-style: italic; font-weight: 900;"> Ammar Ali, </h3>
+						    <h3 style="display: inline"> Critically reviewed the paper <span style="font-weight: bold;">'Coarse-to-fine blind image deblurring based on K-means clustering,'</span> which introduces a novel multiscale <span style="font-weight: bold;">MAP framework</span> using <span style="font-weight: bold;">K-means clustering</span> for efficient blur kernel estimation. The method demonstrated improved computational efficiency and image quality compared to traditional and deep learning-based approaches, highlighting its applicability in resource-constrained scenarios. February 2024. </h3>
+						    <a href="Critical Review..pdf" target="_blank" style="text-decoration: none; color: blue; font-weight: bold;">Report</a>
+						</div>
+	                </div> 
+		        	</br>
+		        	<div class = "subSectionHeader">
+	                	<div style="clear: both">
+						    <h3 style="display: inline; font-style: italic; font-weight: 900;"> Ammar Ali, </h3>
+						    <h3 style="display: inline"> Investigated the <span style="font-weight: bold;">impact of population growth on GDP per capita</span>, analyzing panel data from 50 countries over 20 years. Applied fixed and random effects models to assess economic and demographic interactions, including fertility rates and FDI, showcasing expertise in econometrics and causal inference. The study provided insights into the relationship between demographic trends and economic growth in developed and developing nations (Bachelor's Thesis). May 2022. </h3>
+							<a href="Bachelor's Thesis.pdf" target="_blank" style="text-decoration: none; color: blue; font-weight: bold;">View PDF</a>
+						</div>
+	                </div> 
+	                </br>
+	                <div class = "subSectionHeader">
+	                	<div style="clear: both">
+						    <h3 style="display: inline">Hamid Dr., </h3>
+						    <h3 style="display: inline; font-style: italic; font-weight: 900;"> Ammar Ali, </h3>
+						    <h3 style="display: inline"> Implemented a machine learning project using Python frameworks like <span style="font-weight: bold;">scikit-learn, TensorFlow, and OpenCV</span> to classify FashionMNIST dataset images. Evaluated classification models, including <span style="font-weight: bold;">SVM and MLP</span>, achieving <span style="font-weight: bold;">87% accuracy</span> and improved F1-scores with Sobel edge-detected images, highlighting the impact of feature extraction techniques on performance. December 2023. </h3>
+							<a href="https://github.com/ammarally/knowledge-check-of-machine-learning-data-visualisation-and-computer-vision-techniques-in-Python/blob/main/Assignment%202.ipynb" target="_blank" style="text-decoration: none; color: blue; font-weight: bold;">Code</a>
+							<h3 style="display: inline"></h3>
+						</div>
+	                </div> 
+	                </br>
+		     		<div class = "subSectionHeader">
+	                	<div style="clear: both">
+						    <h3 style="display: inline; font-style: italic; font-weight: 900;"> Ammar Ali, </h3>
+						    <h3 style="display: inline"> Conducted an in-depth analysis of <span style="font-weight: bold;">COVID-19 data</span> in India using Python and Tableau. Explored trends in active cases, recovery, and mortality rates across states, visualized vaccination distribution, and identified key insights on the pandemic's regional impact. Leveraged libraries such as <span style="font-weight: bold;">pandas, matplotlib, seaborn, and Plotly</span> for data cleaning, analysis, and visualization. [Tech Talk Presentation]</h3>
+						    <a href="https://github.com/ammarally/Covid-19-Data-Analysis-with-python-and-Tableau/blob/main/Covid_19_Data_Analysis_Project(India).ipynb" target="_blank" style="text-decoration: none; color: blue; font-weight: bold;">Code</a>
+						</div>
+	                </div>
+
+		        </div>  <!-- end of slide -->
+
+	            
+		   </div> <!-- end of slide show container-->
+		</div> <!-- end container --> 
+
+
+		<!-- RESEARCH AND WORK EXPERINECE --> 
+		<!-- YOU ARE HERE *** THEN ADD TEACHING EXPERINCE, HONORS MAYBE, DOWNLOAD PDF FOR CV, LINKS TO SOCIALS IN TOP RIGHT CORNER, ADD GITHUB AND GOOGLE SCHOLAR PAGE TAKE AWAY INSTA -->
+       	<div class = "container" id = "eCon">
+	       <div class = "sectionHeader" id = "experience" > 
+	            <h1> Research and Work Experience </h1>
+	       </div>
+
+	       <div class = "SlideContainer" id = "slider">
+
+	            <div class = "slide2" id="work">
+	                <div class = "subSectionHeader">
+	                    <h2> Graduate Researcher, Center for Research in Economics and Business CREB | May 2022-March 2023 </h2>
+	                </div> 
+	                <p>Department of Economics and Statistics, Lahore School of Economics LSE, Lahore, Pakistan</p>
+	                <ul>
+	                		<li>Collaborated on a research project analyzing the role of innovation in driving firm growth and enhancing labor productivity, contributing to actionable insights for policy and business strategy.l</li>
+	                		<li>Conducted comprehensive primary data collection from 30 small and medium enterprises (SMEs), ensuring the integrity and reliability of research data through meticulous cleaning processes.</li>
+	                		<li>Applied advanced statistical techniques using STATA to perform robust data analysis, delivering accurate and meaningful findings to support evidence-based decision-making.</li>
+	                </ul>
+	         
+	                </br></br>
+
+	                <div class = "subSectionHeader">
+	                    <h2> Undergraduate Researcher | Summers 2020 & 2021 </h2>
+	                </div> 
+	                <p>Department of Economics and Statistics, Lahore School of Economics LSE, Lahore, Pakistan</p>
+	                <ul>
+	                		<li>Conducted extensive field visits across diverse regions of Pakistan to support data collection efforts for a research project </li>
+	                		<li>Performed meticulous data cleaning using excel to enhance accuracy and reliability, preparing datasets for statistical analysis and meaningful interpretation. </li>
+	                </ul>
+	         
+	                </br></br>
+
+	                <div class = "subSectionHeader">
+	                    <h2> Data Science Intern | March 2023-August 2023 </h2>
+	                </div> 
+	                <p>Perrennials Digitals, Lahore, Pakistan</p>
+	                <ul>
+	                		<li>Collaborated with the data science team to analyze large customer datasets using Python and SQL</li>
+	                		<li>Implemented classification models including XGBoost and Random Forest algorithms to predict retention status of the broadband service </li>
+	                		<li>Extracted critical evaluation metrics such as recall and accuracy to assess model performance</li>
+	                		<li>Effectively presented conclusions and insights to non-technical stakeholders</li>
+	                </ul>
+
+	               	</br></br>
+
+	                <div class = "subSectionHeader">
+	                    <h2> Data Analyst Intern | February 2024-April 2024 </h2>
+	                </div> 
+	                <p>Transworld Business Advisors, Dubai, UAE </p>
+	                <ul>
+	                		<li>Analyzed complex financial datasets using advanced Excel tools, including pivot tables, to derive actionable insights for investment evaluations.</li>
+	                		<li>Designed financial models for mergers and acquisitions, demonstrating proficiency in structured data analysis and decision-making processes.</li>
+	                </ul>
+
+					</br></br>
+					<div class = "subSectionHeader">
+	                    <h2> Adventure| Summers 2024 </h2>
+	                </div>
+	                <p>I learned scuba diving from Bermuda Diving Center, Dubai, UAE </p>
+					<br>
+	                <div class="box" align="left">
+						<img src="img/bermuda.jpg" alt="Scuba Diving Adventure" width="350" height="450" style="border-radius: 10px; margin-bottom: 10px;">
+                        <br>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Jiqqq8hhuDQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+                    </div>
+
+	            </div> <!-- end of slide-->
+	        </div><!-- end of slide show container-->
+	    </div> <!-- end container --> 
+
+	    <!-- Teaching Experience -->
+		<div class = "container" id = "pCon">
+			<div class = "SlideContainer" >
+
+				<div class = "sectionHeader" id = "teachEx">
+					<h1>Teaching Experience</h1>
+				</div>
+				<div class = "slide" id = "teaching"> 
+		            <div class = "subSectionHeader">
+		            	</br>
+	                	<div style="clear: both">
+						    <h3 style="display: inline; font-style: italic; font-weight: 900;">Mathematics: Linear Algebra</h3>
+						    <h3 style="display: inline"> [Graduate] </h3> 
+							<h3>Visiting Teaching Associate | Fall 2022</h3>
+						    <h3>Department of Mathematics and Statistics, Lahore School of Economics LSE, Lahore, Pakistan</h3>
+
+						</div>
+	                </div> 
+
+	                <div class = "subSectionHeader">
+		            	</br>
+	                	<div style="clear: both">
+						    <h3 style="display: inline; font-style: italic; font-weight: 900;">Stats: Probability and Statistics </h3>
+						    <h3 style="display: inline"> [Graduate] </h3> 
+							<h3>Visiting Teaching Associate | Fall 2022</h3>
+						    <h3>Department of Mathematics and Statistics, Lahore School of Economics LSE, Lahore, Pakistan</h3>
+						</div>
+	                </div> 
+
+	                <div class = "subSectionHeader">
+		            	</br>
+	                	<div style="clear: both">
+						    <h3 style="display: inline; font-style: italic; font-weight: 900;">Research Methods: Analysis for Large Scale Datasets</h3>
+						    <h3 style="display: inline"> [Graduate] </h3> 
+							<h3>Visiting Teaching Associate | Fall 2022</h3>
+						    <h3>Department of Economics and Policy, Lahore School of Economics LSE, Lahore, Pakistan </h3>
+
+						</div>
+	                </div> 
+
+	                 <div class = "subSectionHeader">
+		            	</br>
+	                	<div style="clear: both">
+						    <h3 style="display: inline; font-style: italic; font-weight: 900;">Financial Management</h3>
+						    <h3 style="display: inline"> [Graduate] </h3> 
+							<h3>Visiting Teaching Associate | Fall 2022</h3>
+						    <h3>Department of Management Sciences, Lahore School of Economics LSE, Lahore, Pakistan </h3>
+
+						</div>
+	                </div> 
+
+	                <div class = "subSectionHeader">
+		            	</br>
+	                	<div style="clear: both">
+						    <h3 style="display: inline; font-style: italic; font-weight: 900;">Econometrics: Big Data and Their Real World Applications</h3>
+						    <h3 style="display: inline"> [Undergraduate] </h3>
+							<h3>Teaching Assistant | Winter 2021</h3>
+						    <h3>Department of Economics and Policy, Lahore School of Economics LSE, Lahore, Pakistan </h3>
+						</div>
+	                </div> 
+
+	                <div class = "subSectionHeader">
+		            	</br>
+	                	<div style="clear: both">
+						    <h3 style="display: inline; font-style: italic; font-weight: 900;">Statistics</h3>
+						    <h3 style="display: inline"> [Undergraduate] </h3> 
+							<h3>Teaching Assistant | Spring 2020</h3>
+						    <h3>Department of Statistics and Mathematics, Lahore School of Economics, Lahore, Pakistan </h3>
+						</div>
+	                </div> 
+	   
+
+	                <div class = "subSectionHeader">
+		            	</br>
+	                	<div style="clear: both">
+						    <h3 style="display: inline; font-style: italic; font-weight: 900;">Computing for Business and Economics</h3>
+						    <h3 style="display: inline"> [Undergraduate] </h3> 
+							<h3>Teaching Assistant | Fall 2019</h3>
+						    <h3>Department of Computer Science, Lahore School of Economics, Lahore, Pakistan </h3>
+						</div>
+	                </div> 
+	 
+
+	                <div class = "subSectionHeader">
+		            	</br>
+	                	<div style="clear: both">
+						    <h3 style="display: inline; font-style: italic; font-weight: 900;">Teaching and Research Resource Center TRRC </h3>
+						    <h3 style="display: inline"> [Undergraduate] </h3> 
+							<h3>Coordinator & Assistant | Winter 2019 & Fall 2018</h3>
+						    <h3>Lahore School of Economics LSE, Lahore, Pakistan </h3>
+						</div>
+	                </div> 
+	             
+
+	                <div class = "subSectionHeader">
+		            	</br>
+	                	<div style="clear: both">
+						    <h3 style="display: inline; font-style: italic; font-weight: 900;">SOS Children's Villages Pakistan </h3>
+						    <h3 style="display: inline"> [High School and Undergraduate] </h3>
+							<h3>Instructor | Summer 2017, 2018 & 2019</h3>
+						</div>
+	                </div>
+
+	                
+		        </div>  <!-- end of slide -->
+
+	            
+		   </div> <!-- end of slide show container-->
+		</div> <!-- end container --> 
+
+<!-- Interests Slideshow -->
+		<div class = "container" id = "CCon"> 
+			<div class = "sectionHeader" id = "CV">
+				<h1> Curriculum Vitae </h1>
+			</div>
+
+			<div class = "SlideContainer">
+				<div class = "resume" id="info" style = "text-align: center;">
+					<button onclick = "window.location='Resume.pdf'" style="margin-top: 35px; width: 600px;">Download CV</button>
+
+				
+					
+
+				</div> <!-- end of slide-->
+	            
+
+			</div><!-- end of slide show container-->
+		</div> <!-- end container --> 
+
+
+<footer>
+
+	
+	<div id = "footer">
+			<p>
+				<a href= "mailto:ammarali007007@gmail.com"><img src = img/mail.png></a>
+
+				<a href= "https://www.linkedin.com/in/ali-ammar007/"><img src = img/linkedin.png ></a>
+		
+				<a href= "https://github.com/ammarally"><img src = img/g8.webp></a>
+			</p>
+			<p> Ali Ammar | 2024 </p>
+		</div> 
+</footer>
+
+</div><!-- end parallax -->
+	</body>
+
+
+</html>
